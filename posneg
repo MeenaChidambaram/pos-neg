@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int a;
+scanf("%d",&a);
+if(a>=0)
+{
+printf("its a positive number");
+}
+else
+{
+printf("its a negative number");
+}
+getch();
+return 0;
+}
